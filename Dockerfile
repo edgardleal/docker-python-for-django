@@ -18,5 +18,5 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
-RUN pip3 install Django==3.0
+RUN pip3 install Django==3.0.6
 EXPOSE 8000
