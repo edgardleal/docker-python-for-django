@@ -18,5 +18,5 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
-RUN pip3 install Django==3.0.6 && pip3 install mysqlclient==2.0.1
+RUN pip3 install Django==3.0.6 mysqlclient==2.0.1
 EXPOSE 8000
